@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms tutorial 8</title>
+</head>
+
+<body>
+    <h1>How to create form</h1>
+    <form action="backend.php">
+        <div>
+            Name : <input type="text">
+        </div>
+        <br>
+        <div>
+            Enrollement No. : <input type="number+text">
+        </div>
+        <br>
+        <label for="City">City</label>
+        <div>
+            <input type="text" name="mycity" id="City">
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are you eligible</label>
+            <input type="checkbox" checked name="myeligibility" id="eligible">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="my"> Female <input type="radio" name="my">Other <input type="radio"
+                name="my">
+        </div>
+        <br>
+        <div>
+            <label for="Branch">Branch</label>
+            <select name="mybranch" id="Branch">
+                <option value="cse" selected>Computer Science</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Comments : <br> <textarea name="myparagraph" cols="20" rows="1"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit now">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset all">
+        </div>
+    </form>
+</body>
+
+</html>
